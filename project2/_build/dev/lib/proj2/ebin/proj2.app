@@ -1,0 +1,9 @@
+{application,proj2,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"proj2"},
+              {modules,['Elixir.Proj2.Cli','Elixir.Proj2.Gossip',
+                        'Elixir.Proj2.Honeycomb','Elixir.Proj2.Neighbours',
+                        'Elixir.Proj2.Pushsum','Elixir.Proj2.RandomGen',
+                        'Elixir.Proj2.Torus_3D']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
