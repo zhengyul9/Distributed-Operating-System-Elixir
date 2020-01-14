@@ -1,0 +1,16 @@
+<!-- The list of messages will appear here: -->
+<ul id='msg-list' class='col' style='list-style: none; min-height:400px; padding: 10px;'></ul>
+
+<div class="row">
+  <div class="col-xs-3">
+    <input type="text" id="usr_num" class="form-control" placeholder="Total number of users" autofocus>
+  </div>
+  <div class="col-xs-9">
+    <input type="text" id="tot_times" class="form-control" placeholder="Message times ">
+  </div>
+
+   <div class="col-xs-5">
+   <button id="start" type="button"  class="btn btn-info">start simulating</button>
+  </div>
+
+</div>

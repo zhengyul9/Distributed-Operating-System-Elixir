@@ -1,0 +1,65 @@
+<!-- The list of messages will appear here: -->
+<ul id='msg-list' class='col'
+ style='list-style: none; min-height:300px; padding: 10px;'></ul>
+
+<div class="row">
+    </div>
+   <div class="col-xs-5">
+    <input type="text" id="username" class="form-control" placeholder="Your username">
+   <div class="col-xs-5">
+    <input type="text" id="password_registration" class="form-control" placeholder="Your password for registration">
+
+   <div class="col-xs-5">
+   <button id="register" type="button"  class="btn btn-info">click to register</button>
+
+   <div class="col-xs-5">
+    <input type="text" id="password_login" class="form-control" placeholder="Your password for login">
+
+   <div class="col-xs-5">
+   <button id="login" type="button"  class="btn btn-info">click to login</button>
+
+  </div>
+  <div class="col-xs-3">
+    <input type="text" id="subscribe_name" class="form-control" placeholder="user to subscribe" autofocus>
+  </div>
+
+   <div class="col-xs-5">
+   <button id="subscribe" type="button"  class="btn btn-info">click to subscribe</button>
+
+  </div>
+
+
+  <div class="col-xs-9">
+    <input type="text" id="msg" class="form-control" placeholder="Your Message">
+  </div>
+
+  </div>
+    <button id="twitter" type="button"  class="btn btn-info">Send twitter</button>
+
+  </div>
+ 
+  <div class="col-xs-9">
+    <input type="text" id="retweet_num" class="form-control" placeholder="num of message">
+  </div>
+
+  </div>
+    <button id="retweet" type="button"  class="btn btn-info"> Click to retweet </button>
+
+  </div>
+
+
+
+
+
+   <div class="col-xs-9">
+    <input type="text" id="tag_to_search" class="form-control" placeholder="tag for search">
+  </div>
+
+  </div>
+    <button id="search_tag" type="button"  class="btn btn-info">Search Tag</button>
+
+  </div>
+
+
+ 
+</div>
